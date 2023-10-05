@@ -6,7 +6,7 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   return (
     <div className='aipicker-container'>
       <textarea
-        placeholder='Ask AI...'
+        placeholder='Openai is a paid service, and is not available at the moment.'
         rows={5}
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
